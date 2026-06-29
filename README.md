@@ -1,6 +1,5 @@
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x400/1a1a1a/f59e0b?text=DineManage" alt="DineManage Banner" width="100%" />
   <h1>DineManage</h1>
   <h3>پنل مدیریت محتوای حرفه‌ای رستوران</h3>
   <p>
