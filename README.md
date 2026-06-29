@@ -109,8 +109,6 @@ DineManage-Restaurant-CMS-Dashboard/
 | **Vazirmatn Font** | فونت فارسی مدرن از Google Fonts |
 | **SVG Inline** | آیکون‌ها و نمودارها |
 
-✅ **بدون هیچ وابستگی خارجی!** — این پروژه به هیچ فریمورک یا کتابخانه‌ای وابسته نیست.
-
 ---
 
 ## 🎨 طراحی و پالت رنگی
@@ -128,16 +126,6 @@ DineManage-Restaurant-CMS-Dashboard/
 
 ---
 
-## 🤝 مشارکت
-
-1. مخزن را **Fork** کنید
-2. یک **Branch** جدید بسازید (`git checkout -b feature/amazing-feature`)
-3. تغییرات خود را **Commit** کنید (`git commit -m 'Add some amazing feature'`)
-4. Branch را **Push** کنید (`git push origin feature/amazing-feature`)
-5. یک **Pull Request** باز کنید
-
----
-
 ## 📄 مجوز
 
 © 2026 محمدعلی بزازی (Mohammadali Bazzazi). تمامی حقوق محفوظ است.
@@ -152,4 +140,4 @@ DineManage-Restaurant-CMS-Dashboard/
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bazzazi)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bazzazi)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bazzazi)
-```
+
