@@ -84,18 +84,18 @@ cd DineManage-Restaurant-CMS-Dashboard
 # ۳. فایل index.html را در مرورگر باز کنید
 # یا از Live Server در VS Code استفاده کنید
 
-
+```
 ---
 
 ## 🗂️ ساختار فایل‌ها
 
-```
+
 DineManage-Restaurant-CMS-Dashboard/
 ├── index.html    # ساختار اصلی صفحه
 ├── styles.css    # استایل‌های کامل (تم تیره، گرید، فلکس، ریسپانسیو)
 ├── script.js     # منطق تعاملات، رندر داده‌ها، نمودارها
 └── README.md     # این فایل
-```
+
 
 ---
 
