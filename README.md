@@ -15,10 +15,14 @@
 
 ## 📸 پیش‌نمایش (Screenshots)
 
+### 🖥️ نمای دسکتاپ
 <div align="center">
-  <img src="https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_desk.png" alt="Desktop View" width="80%" />
-  <br/>
-  <img src="https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_mobile.png" alt="Mobile View" width="30%" />
+  <img src="https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_desk.png" alt="Desktop View" width="90%" />
+</div>
+
+### 📱 نمای موبایل
+<div align="center">
+  <img src="https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_mobile.png" alt="Mobile View" width="35%" />
 </div>
 
 > 🚀 **دموی زنده:** [مشاهده نسخه‌ی آنلاین](https://dinemanage-restaurant-cms-dashboard.netlify.app/)
