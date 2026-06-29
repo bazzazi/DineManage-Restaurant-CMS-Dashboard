@@ -1,5 +1,6 @@
 ```markdown
 <div align="center">
+  <img src="https://via.placeholder.com/1200x400/1a1a1a/f59e0b?text=DineManage" alt="DineManage Banner" width="100%" />
   <h1>DineManage</h1>
   <h3>پنل مدیریت محتوای حرفه‌ای رستوران</h3>
   <p>
@@ -15,11 +16,13 @@
 
 ## 📸 پیش‌نمایش (Screenshots)
 
-| دسکتاپ | موبایل |
-|:---:|:---:|
-| ![دسکتاپ](https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_desk.png) | ![موبایل](https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_mobile.png) |
+<div align="center">
+  <img src="https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_desk.png" alt="Desktop View" width="80%" />
+  <br/>
+  <img src="https://github.com/bazzazi/DineManage-Restaurant-CMS-Dashboard/blob/main/Screenshots/shot_mobile.png" alt="Mobile View" width="30%" />
+</div>
 
-> 🎥 **دموی زنده:** [مشاهده نسخه‌ی آنلاین](https://dinemanage-restaurant-cms-dashboard.netlify.app/)
+> 🚀 **دموی زنده:** [مشاهده نسخه‌ی آنلاین](https://dinemanage-restaurant-cms-dashboard.netlify.app/)
 
 ---
 
