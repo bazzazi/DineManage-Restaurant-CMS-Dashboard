@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>رستوران‌یار | پنل مدیریت محتوای حرفه‌ای رستوران</title>
+<meta name="description" content="پنل مدیریت محتوای اختصاصی صنعت رستوران - طراحی شده توسط محمدعلی بزازی" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3v18M4 12h6M14 3c0 5 4 5 4 12v6M18 3v18"/></svg>
+        </div>
+        <div>
+          <h1>رستوران‌یار</h1>
+          <span>پنل مدیریت محتوا</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <p class="nav-title">داشبورد</p>
+        <a href="#" class="nav-item active" data-page="dashboard">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+          <span>نمای کلی</span>
+        </a>
+        <a href="#" class="nav-item" data-page="analytics">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18M7 14l4-4 4 4 5-6"/></svg>
+          <span>تحلیل فروش</span>
+        </a>
+
+        <p class="nav-title">محتوا</p>
+        <a href="#" class="nav-item" data-page="menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z M4 9h16 M9 4v16"/></svg>
+          <span>مدیریت منو</span>
+          <span class="badge">۴۸</span>
+        </a>
+        <a href="#" class="nav-item" data-page="orders">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2l3 6h6l3-6 M3 8h18l-2 13H5L3 8z"/></svg>
+          <span>سفارش‌ها</span>
+          <span class="badge accent">۱۲</span>
+        </a>
+        <a href="#" class="nav-item" data-page="reservations">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          <span>رزرو میز</span>
+        </a>
+        <a href="#" class="nav-item" data-page="customers">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2M17 11a4 4 0 100-8"/></svg>
+          <span>مشتریان</span>
+        </a>
+
+        <p class="nav-title">سیستم</p>
+        <a href="#" class="nav-item" data-page="staff">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a4 4 0 014-4h8a4 4 0 014 4v2"/></svg>
+          <span>کارکنان</span>
+        </a>
+        <a href="#" class="nav-item" data-page="settings">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+          <span>تنظیمات</span>
+        </a>
+      </nav>
+
+      <div class="user-card">
+        <div class="avatar">م ب</div>
+        <div>
+          <strong>محمدعلی بزازی</strong>
+          <span>مدیر کل</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-label="منو">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+        <div class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" placeholder="جستجو در سفارش‌ها، مشتریان، منو..." />
+          <kbd>⌘ K</kbd>
+        </div>
+        <div class="topbar-actions">
+          <button class="icon-btn" aria-label="اعلان">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0"/></svg>
+            <span class="dot"></span>
+          </button>
+          <button class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+            افزودن غذا
+          </button>
+        </div>
+      </header>
+
+      <section class="content" id="content">
+        <div class="page-header">
+          <div>
+            <p class="eyebrow">پنل مدیریت • شنبه، ۶ تیر</p>
+            <h2>سلام محمدعلی 👋</h2>
+            <p class="subtitle">امروز رستوران شما عملکرد فوق‌العاده‌ای داشته — اینجا خلاصه‌ای از همه چیز است.</p>
+          </div>
+          <div class="period-switch">
+            <button class="active">امروز</button>
+            <button>هفته</button>
+            <button>ماه</button>
+          </div>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card glow">
+            <div class="kpi-head">
+              <span>درآمد امروز</span>
+              <span class="trend up">↑ ۱۸٪</span>
+            </div>
+            <h3>۲۴٫۷۸۰٫۰۰۰ <small>تومان</small></h3>
+            <div class="spark" data-spark="12,18,15,22,19,28,32,29,38,42,40,48"></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-head">
+              <span>سفارش‌ها</span>
+              <span class="trend up">↑ ۱۲٪</span>
+            </div>
+            <h3>۱۴۲</h3>
+            <div class="spark" data-spark="20,24,22,30,28,34,32,38,36,42,40,44"></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-head">
+              <span>میز رزرو شده</span>
+              <span class="trend down">↓ ۳٪</span>
+            </div>
+            <h3>۲۸ <small>میز</small></h3>
+            <div class="spark" data-spark="30,28,26,30,24,22,26,24,22,20,22,24"></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-head">
+              <span>مشتریان جدید</span>
+              <span class="trend up">↑ ۲۴٪</span>
+            </div>
+            <h3>۳۶</h3>
+            <div class="spark" data-spark="8,10,12,11,14,16,18,20,22,24,28,30"></div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h4>روند فروش هفتگی</h4>
+                <p>مقایسه با هفته گذشته</p>
+              </div>
+              <div class="legend">
+                <span><i class="dot-1"></i> این هفته</span>
+                <span><i class="dot-2"></i> هفته قبل</span>
+              </div>
+            </div>
+            <div class="chart" id="chart"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h4>پرفروش‌ترین غذاها</h4>
+                <p>بر اساس سفارش‌های امروز</p>
+              </div>
+              <button class="link">مشاهده همه</button>
+            </div>
+            <ul class="top-list">
+              <li>
+                <div class="thumb t1">🍖</div>
+                <div class="info">
+                  <strong>چلوکباب سلطانی</strong>
+                  <span>دسته: غذای اصلی</span>
+                </div>
+                <div class="meta">
+                  <strong>۴۲</strong>
+                  <span class="bar"><i style="width:92%"></i></span>
+                </div>
+              </li>
+              <li>
+                <div class="thumb t2">🍕</div>
+                <div class="info">
+                  <strong>پیتزا مخصوص</strong>
+                  <span>دسته: ایتالیایی</span>
+                </div>
+                <div class="meta">
+                  <strong>۳۶</strong>
+                  <span class="bar"><i style="width:78%"></i></span>
+                </div>
+              </li>
+              <li>
+                <div class="thumb t3">🥗</div>
+                <div class="info">
+                  <strong>سالاد سزار</strong>
+                  <span>دسته: پیش غذا</span>
+                </div>
+                <div class="meta">
+                  <strong>۲۸</strong>
+                  <span class="bar"><i style="width:60%"></i></span>
+                </div>
+              </li>
+              <li>
+                <div class="thumb t4">🍝</div>
+                <div class="info">
+                  <strong>پاستا آلفردو</strong>
+                  <span>دسته: ایتالیایی</span>
+                </div>
+                <div class="meta">
+                  <strong>۲۱</strong>
+                  <span class="bar"><i style="width:45%"></i></span>
+                </div>
+              </li>
+              <li>
+                <div class="thumb t5">🍰</div>
+                <div class="info">
+                  <strong>چیزکیک توت فرنگی</strong>
+                  <span>دسته: دسر</span>
+                </div>
+                <div class="meta">
+                  <strong>۱۸</strong>
+                  <span class="bar"><i style="width:38%"></i></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h4>سفارش‌های اخیر</h4>
+              <p>۱۲ سفارش در انتظار پردازش</p>
+            </div>
+            <div class="filters">
+              <button class="chip active">همه</button>
+              <button class="chip">در انتظار</button>
+              <button class="chip">در حال آماده‌سازی</button>
+              <button class="chip">تحویل شده</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>شناسه</th>
+                  <th>مشتری</th>
+                  <th>اقلام</th>
+                  <th>میز</th>
+                  <th>مبلغ</th>
+                  <th>وضعیت</th>
+                  <th>زمان</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="ordersBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© ۱۴۰۴ رستوران‌یار — طراحی و توسعه توسط <strong>محمدعلی بزازی</strong></p>
+          <p>نسخه ۱٫۰٫۰ • ساخته شده با ❤</p>
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
